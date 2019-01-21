@@ -3,9 +3,7 @@ const promiesTest = require('./asyc');
 test('test simple promise', ()=>{
     promiesTest().then(result =>{
         expect(result).toEqual('Hi');
-    }).catch(er =>{
-        console.log(er)
-    });   
+    })   
 });
 
 test('test simple promise', ()=>{
